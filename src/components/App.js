@@ -1,11 +1,12 @@
 import React from 'react';
+import GoogleAuth from "./GoogleAuth"
 
-function App(props) {
+const App = () => {
   return (
     <div>
-      hi
+      <GoogleAuth />
     </div>
   );
-}
+};
 
 export default App;
